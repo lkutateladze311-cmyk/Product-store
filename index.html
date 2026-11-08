@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="logo">TechStore</h1>
+      <button class="cart-button" id="cart-toggle">
+        🛒 Cart (<span id="cart-count">0</span>)
+      </button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <!-- SHOPPING CART -->
+    <div class="cart-container" id="cart-container">
+      <div class="cart-header">
+        <h2>Shopping Cart</h2>
+        <button id="close-cart">✕</button>
+      </div>
+
+      <div id="cart-items">
+        <p>Your cart is empty.</p>
+      </div>
+
+      <div class="cart-footer">
+        <h3>Total: $<span id="cart-total">0.00</span></h3>
+        <button id="checkout">Checkout</button>
+      </div>
+    </div>
+    <!-- Home Section -->
+    <section id="home">
+      <h2>Discover Amazing Products</h2>
+      <p>Find the latest technology and gadgets at great prices.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+      <h2>Our Products</h2>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=600"
+            alt="Gaming Laptop"
+          />
+          <h3>Gaming Laptop</h3>
+          <p>Powerful laptop for gaming and productivity.</p>
+          <div class="product-bottom">
+            <span class="price">$1549</span>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          />
+          <img
+            src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+            alt="Headphones"
+          />
+          <h3>Headphones</h3>
+          <div class="product-bottom">
+            <span class="price">$149</span>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600"
+            alt="Keyboard"
+          />
+          <h3>Mechanical Keyboard</h3>
+          <div class="product-bottom">
+            <span class="price">$89</span>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
+            alt="Gaming Mouse"
+          />
+          <h3>Gaming Mouse</h3>
+          <p>Precision sensor and ergonomic design.</p>
+          <div class="product-bottom">
+            <span class="price">$59</span>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We bring technology closer to everyone.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@techstore.com</p>
+    </section>
+
+    <footer>
+      <p>© 2026 TechStore. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
